@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
-      <img alt="Andres del Castillo. Population genetics, scientific software, machine learning." src="assets/banner-dark.svg" width="100%" />
+      <img alt="Andres del Castillo. Statistics, machine learning, scientific software." src="assets/banner-dark.svg" width="100%" />
     </picture>
   </a>
 </div>
