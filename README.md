@@ -2,6 +2,11 @@
 
 I build statistical and machine learning tools, mostly for population genetics, and release them as software other people can install and check. More recently I've been working on AI agents that keep a long-term memory between sessions.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/results-dark.svg">
+  <img alt="Left: DNNaic direction accuracy rises from chance to 96.6% as the migration rate grows. Right: SegViT gains about 0.14 bits per token from seeing the next song, flat from 1 to 8 second gaps." src="assets/results-light.svg" width="100%">
+</picture>
+
 ### Projects
 
 **[DNNaic](https://github.com/yspennstate/DNNaic)** infers which way gene flow went between two populations. Patterson's D can detect gene flow, but it is symmetric, so it can't tell the donor from the recipient. DNNaic works from nine allelic rarefaction statistics that keep that information, with a two-stage network that first decides whether there is appreciable gene flow and then orients it. On coalescent simulations it calls the direction correctly 96.6% of the time at the highest migration rate. On real data it recovers the known *melpomene* to *timareta* direction in *Heliconius* butterflies, and it declines to make a call on the Neanderthal data, where the sampling is too shallow for the method. The repository has the code and the manuscript (del Castillo and Shmalo).

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" role="img" aria-labelledby="t">
+<title id="t">Two results: DNNaic direction accuracy rises from chance to 96.6% with migration rate; SegViT gains about 0.14 bits per token from seeing the next song, flat from 1 to 8 second gaps.</title>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #59636e; }
+  .title { font-size: 17px; font-weight: 600; fill: #1f2328; }
+  .sub { font-size: 13px; }
+  .tick { font-size: 12px; }
+  .val { font-size: 13px; font-weight: 600; fill: #1f2328; }
+</style>
+<line x1="70" x2="440" y1="250.0" y2="250.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="60" y="254.0" text-anchor="end" class="tick">0%</text>
+<line x1="70" x2="440" y1="170.0" y2="170.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="60" y="174.0" text-anchor="end" class="tick">50%</text>
+<line x1="70" x2="440" y1="90.0" y2="90.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="60" y="94.0" text-anchor="end" class="tick">100%</text>
+<line x1="70" x2="440" y1="196.7" y2="196.7" stroke="#59636e" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="436" y="190.7" text-anchor="end" class="tick">chance</text>
+<text x="139.4" y="270" text-anchor="middle" class="tick">10<tspan dy="-6" font-size="9">-6</tspan></text>
+<text x="255.0" y="270" text-anchor="middle" class="tick">10<tspan dy="-6" font-size="9">-5</tspan></text>
+<text x="370.6" y="270" text-anchor="middle" class="tick">10<tspan dy="-6" font-size="9">-4</tspan></text>
+<clipPath id="ra1"><rect x="58" y="60" width="394" height="200"><animate attributeName="width" values="0;394" dur="1.6s" begin="0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .25 1"/></rect></clipPath><g clip-path="url(#ra1)"><path d="M104.6,195.6 L185.4,187.1 L335.8,160.7 L416.6,95.4" fill="none" stroke="#0969da" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="104.6" cy="195.6" r="4.5" fill="#0969da"/>
+<circle cx="185.4" cy="187.1" r="4.5" fill="#0969da"/>
+<circle cx="335.8" cy="160.7" r="4.5" fill="#0969da"/>
+<circle cx="416.6" cy="95.4" r="4.5" fill="#0969da"/>
+<text x="406.6" y="85.4" text-anchor="end" class="val">96.6%</text></g>
+<text x="70" y="40" class="title">DNNaic: which way gene flow went</text>
+<text x="70" y="62" class="sub">Direction accuracy by migration rate (three-way, simulated)</text>
+<text x="255.0" y="294" text-anchor="middle" class="tick">migration rate per generation</text>
+<line x1="560" x2="920" y1="250.0" y2="250.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="550" y="254.0" text-anchor="end" class="tick">0</text>
+<line x1="560" x2="920" y1="186.0" y2="186.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="550" y="190.0" text-anchor="end" class="tick">0.1</text>
+<line x1="560" x2="920" y1="122.0" y2="122.0" stroke="#d1d9e0" stroke-width="1"/>
+<text x="550" y="126.0" text-anchor="end" class="tick">0.2</text>
+<text x="590.0" y="270" text-anchor="middle" class="tick">1 s</text>
+<text x="690.0" y="270" text-anchor="middle" class="tick">2 s</text>
+<text x="790.0" y="270" text-anchor="middle" class="tick">4 s</text>
+<text x="890.0" y="270" text-anchor="middle" class="tick">8 s</text>
+<clipPath id="rb"><rect x="548" y="60" width="384" height="200"><animate attributeName="width" values="0;384" dur="1.6s" begin="0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .25 1"/></rect></clipPath><g clip-path="url(#rb)"><path d="M590.0,149.4 L690.0,166.3 L790.0,154.6 L884.0,152.7" fill="none" stroke="#0969da" stroke-width="1.5" stroke-opacity=".55"/>
+<line x1="590.0" x2="590.0" y1="166.5" y2="130.2" stroke="#0969da" stroke-width="2"/>
+<circle cx="590.0" cy="149.4" r="4.5" fill="#0969da"/>
+<line x1="690.0" x2="690.0" y1="179.9" y2="152.1" stroke="#0969da" stroke-width="2"/>
+<circle cx="690.0" cy="166.3" r="4.5" fill="#0969da"/>
+<line x1="790.0" x2="790.0" y1="169.4" y2="138.5" stroke="#0969da" stroke-width="2"/>
+<circle cx="790.0" cy="154.6" r="4.5" fill="#0969da"/>
+<line x1="884.0" x2="884.0" y1="168.6" y2="136.3" stroke="#0969da" stroke-width="2"/>
+<circle cx="884.0" cy="152.7" r="4.5" fill="#0969da"/>
+<line x1="896.0" x2="896.0" y1="188.5" y2="162.1" stroke="#59636e" stroke-width="2"/>
+<circle cx="896.0" cy="175.4" r="4" fill="none" stroke="#59636e" stroke-width="1.5"/></g>
+<text x="560" y="40" class="title">SegViT: what the next song tells you</text>
+<text x="560" y="62" class="sub">Bits per token gained from seeing it, by gap length (95% CI)</text>
+<text x="740.0" y="294" text-anchor="middle" class="tick">gap between songs (open circle: second seed)</text>
+</svg>
