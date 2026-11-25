@@ -5,10 +5,10 @@ I work on AI agents that keep a long-term memory, and on machine learning and st
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/brain-dark.webp">
-    <img alt="A slowly rotating 3D view of an AI agent memory: points in coloured clusters, with all labels hidden." src="assets/brain-light.webp" width="560">
+    <img alt="A slowly rotating 3D view of an AI agent memory: points in coloured clusters, some lighting up as an agent reads them, with all labels hidden." src="assets/brain-light.webp" width="560">
   </picture>
   <br>
-  <sub>The shared memory my agents work from, as drawn by Brain Live. Each point is one record; labels are hidden.</sub>
+  <sub>The shared memory my agents work from, as drawn by Brain Live. Each point is one record and lights up when an agent reads it. Labels are hidden.</sub>
 </p>
 
 ### AI agents and machine learning
